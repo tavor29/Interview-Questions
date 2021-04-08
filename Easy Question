@@ -1,0 +1,6 @@
+Fizz buzz:
+The task is to code the game Fizzbuzz, using Python.
+The rules of the game are:
+Count from 1 to 100, while each time n divides by 3 without a reaminder, return "Fizz" instead.
+If n/5 without a remainder, it should return "buzz" instead.
+If both are possible for n, return "Fizzbuzz".
