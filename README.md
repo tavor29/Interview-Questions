@@ -43,14 +43,14 @@ and perhaps one of the most popular interview questions for junior/entry-level j
 # Improved:
 
     for i in range(1,100):
-    a = ""
-    if i % 2 == 0:
+      a = ""
+     if i % 2 == 0:
         a = a + "fizz"
-    if i % 5 == 0:
+     if i % 5 == 0:
         a = a+ "buzz"
-    if a == "":
+     if a == "":
         a = i
-    print a
+     print a
   
   
   
