@@ -83,3 +83,40 @@ and perhaps one of the most popular interview questions for junior/entry-level j
  # The last improvment:
  
      print("\n".join(["Fizz"*(i%3==0)+"Buzz"*(i%5==0) or str(i) for i in range(100)]))
+     
+     
+     
+  #The correct answer:
+  
+  1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz
+
+and so on...
