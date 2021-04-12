@@ -15,6 +15,7 @@ Hope this will help you code better, and even help land that next job!
 The task is to code the game Fizzbuzz, using Python.
 
 The rules of the game are:
+
 Count from 1 to 100, while each time an int divides by 3 without a reaminder, return the word "Fizz" instead.
 If n/5 without a remainder, it should return "buzz" instead.
 If both are possible for n, return "Fizzbuzz".
