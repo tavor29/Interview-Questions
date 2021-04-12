@@ -24,3 +24,28 @@ and perhaps one of the most popular interview questions for junior/entry-level j
     else:
         print(i)
 
+
+
+# Improved:
+
+    for i in range(1,100):
+    a = ""
+    if i % 2 == 0:
+        a = a + "fizz"
+    if i % 5 == 0:
+        a = a+ "buzz"
+    if a == "":
+        a = i
+    print a
+  
+  
+  
+ # Advanced: The one liner
+ 
+    print("\n".join([("Fizz"*(not i%3)+"Buzz"*(not i%5)+str(i)*(i%3!=0 and i%5!=0)) for i in range(1,100)]))
+    
+    
+    
+ # The last improvment:
+ 
+     print("\n".join(["Fizz"*(i%3==0)+"Buzz"*(i%5==0) or str(i) for i in range(100)]))
