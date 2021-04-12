@@ -8,7 +8,8 @@ Hope this will help you code better, and even help land that next job!
 Fizzbuzz:
 The first coding problem is an easier one, 
 and perhaps one of the most popular interview questions for junior/entry-level job.
-**First solution: the most primitive**
+
+**First solution: The most primitive**
 
 
     for i in range(0,100):
