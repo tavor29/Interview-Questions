@@ -9,7 +9,7 @@ Fizzbuzz:
 The first coding problem is an easier one, 
 and perhaps one of the most popular interview questions for junior/entry-level job.
 
-#**First solution: The most primitive**
+# **First solution: The most primitive**
 
 
     for i in range(0,100):
