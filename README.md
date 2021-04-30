@@ -55,7 +55,7 @@ and perhaps one of the most popular interview questions for junior/entry-level j
 
     for i in range(1,100):
       a = ""
-     if i % 2 == 0:
+     if i % 3 == 0:
         a = a + "fizz"
      if i % 5 == 0:
         a = a+ "buzz"
