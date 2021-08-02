@@ -58,7 +58,7 @@ and perhaps one of the most popular interview questions for junior/entry-level j
      if i % 3 == 0:
         a = a + "fizz"
      if i % 5 == 0:
-        a = a+ "buzz"
+        a = a + "buzz"
      if a == "":
         a = i
      print a
